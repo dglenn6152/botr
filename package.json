@@ -8,5 +8,13 @@
     "postinstall": "cd client && npm install",
     "clean": "rm -f app/assets/webpack/*"
   },
-  "cacheDirectories": ["node_modules", "client/node_modules"]
+  "cacheDirectories": [
+    "node_modules",
+    "client/node_modules"
+  ],
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "postcss": "^6.0.21",
+    "postcss-cssnext": "^3.1.0"
+  }
 }
